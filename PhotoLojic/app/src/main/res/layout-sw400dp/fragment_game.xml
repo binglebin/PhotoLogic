@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameFragment">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="11"
+        android:rowCount="11"
+        android:orientation="horizontal"
+        android:useDefaultMargins="true"
+        android:foregroundGravity="center_vertical"
+        >
+        <View
+            android:layout_height="125dp"
+            android:layout_width="75dp"/>
+        <TextView
+            android:id="@+id/col0"
+            android:layout_width="25dp"
+            android:layout_height="125dp"
+            android:background="#ff007f"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/col1"
+            android:layout_width="25dp"
+            android:layout_height="125dp"
+            android:background="#ff007f"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/col2"
+            android:layout_width="25dp"
+            android:layout_height="125dp"
+            android:background="#ff007f"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/col3"
+            android:layout_width="25dp"
+            android:layout_height="125dp"
+            android:background="#ff007f"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/col4"
+            android:layout_width="25dp"
+            android:layout_height="125dp"
+            android:background="#ff007f"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/col5"
+            android:layout_width="25dp"
+            android:layout_height="125dp"
+            android:background="#ff007f"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/col6"
+            android:layout_width="25dp"
+            android:layout_height="125dp"
+            android:background="#ff007f"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/col7"
+            android:layout_width="25dp"
+            android:layout_height="125dp"
+            android:background="#ff007f"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/col8"
+            android:layout_width="25dp"
+            android:layout_height="125dp"
+            android:background="#ff007f"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/col9"
+            android:layout_width="25dp"
+            android:layout_height="125dp"
+            android:background="#ff007f"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/row0"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:background="#ff007f"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/cell0n0"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"/>
+        <Button
+            android:id="@+id/cell0n1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell0n2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell0n3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell0n4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell0n5"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell0n6"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell0n7"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"
+            />
+        <Button
+            android:id="@+id/cell0n8"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell0n9"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <TextView
+            android:id="@+id/row1"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:background="#ff007f"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/cell1n0"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"/>
+        <Button
+            android:id="@+id/cell1n1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell1n2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell1n3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell1n4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell1n5"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell1n6"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell1n7"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"
+            />
+        <Button
+            android:id="@+id/cell1n8"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell1n9"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <TextView
+            android:id="@+id/row2"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:background="#ff007f"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/cell2n0"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"/>
+        <Button
+            android:id="@+id/cell2n1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell2n2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell2n3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell2n4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell2n5"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell2n6"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell2n7"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"
+            />
+        <Button
+            android:id="@+id/cell2n8"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell2n9"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <TextView
+            android:id="@+id/row3"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:background="#ff007f"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/cell3n0"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"/>
+        <Button
+            android:id="@+id/cell3n1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell3n2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell3n3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell3n4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell3n5"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell3n6"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell3n7"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"
+            />
+        <Button
+            android:id="@+id/cell3n8"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell3n9"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <TextView
+            android:id="@+id/row4"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:background="#ff007f"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/cell4n0"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"/>
+        <Button
+            android:id="@+id/cell4n1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell4n2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell4n3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell4n4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell4n5"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell4n6"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell4n7"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"
+            />
+        <Button
+            android:id="@+id/cell4n8"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell4n9"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <TextView
+            android:id="@+id/row5"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:background="#ff007f"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/cell5n0"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"/>
+        <Button
+            android:id="@+id/cell5n1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell5n2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell5n3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell5n4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell5n5"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell5n6"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell5n7"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"
+            />
+        <Button
+            android:id="@+id/cell5n8"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell5n9"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <TextView
+            android:id="@+id/row6"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:background="#ff007f"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/cell6n0"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"/>
+        <Button
+            android:id="@+id/cell6n1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell6n2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell6n3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell6n4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell6n5"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell6n6"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell6n7"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"
+            />
+        <Button
+            android:id="@+id/cell6n8"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell6n9"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <TextView
+            android:id="@+id/row7"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:background="#ff007f"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/cell7n0"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"/>
+        <Button
+            android:id="@+id/cell7n1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell7n2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell7n3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell7n4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell7n5"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell7n6"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell7n7"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"
+            />
+        <Button
+            android:id="@+id/cell7n8"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell7n9"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <TextView
+            android:id="@+id/row8"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:background="#ff007f"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/cell8n0"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"/>
+        <Button
+            android:id="@+id/cell8n1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell8n2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell8n3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell8n4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell8n5"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell8n6"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell8n7"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"
+            />
+        <Button
+            android:id="@+id/cell8n8"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell8n9"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <TextView
+            android:id="@+id/row9"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:background="#ff007f"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/cell9n0"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"/>
+        <Button
+            android:id="@+id/cell9n1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell9n2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell9n3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell9n4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell9n5"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell9n6"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell9n7"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"
+            />
+        <Button
+            android:id="@+id/cell9n8"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/cell9n9"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#ffffff" />
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
